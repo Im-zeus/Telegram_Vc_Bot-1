@@ -10,12 +10,12 @@ async def start(_, message: Message):
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/InayaMusic_bot?startgroup=true")
+            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/Parvathy_MusicRobot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/tzkid"),
-            InlineKeyboardButton("Channel 🔊", url="https://t.me/kidbots")
+            InlineKeyboardButton("💬 Support", url="https://t.me/Noobiezhub"),
+            InlineKeyboardButton("Marvel ☢️", url="https://t.me/marvelmoviesearth616")
             ],[
-            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/INAYA-MUSIC-08-16")
+            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Parvathy-08-16-2")
             ]]
         ),
         disable_web_page_preview=True
@@ -27,7 +27,7 @@ async def gstart(_, message: Message):
         text="**Music Bot Is Online ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Music Group 🎙️", url="https://t.me/psymusic_s")
+            InlineKeyboardButton(text="🎙️ Marvel 🎙️", url="https://t.me/marvelmoviesearth616")
             ]]
         )
     )
