@@ -10,7 +10,7 @@ async def start(_, message: Message):
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ 𝙰𝚍𝚍 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ➕", url="https://t.me/Parvathy_MusicRobot?startgroup=true")
+            InlineKeyboardButton("💝 𝙰𝚍𝚍 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 💝", url="https://t.me/Parvathy_MusicRobot?startgroup=true")
             ],[
             InlineKeyboardButton("💕𝚂𝚞𝚙𝚙𝚘𝚛𝚝💕", url="https://t.me/Noobiezhub"),
             InlineKeyboardButton("💕𝙼𝚊𝚛𝚟𝚎𝚕💕", url="https://t.me/marvelmoviesearth616")
@@ -66,7 +66,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="💖 MARVEL MOVIES 💖", url="https://t.me/psymusic_s")
+              InlineKeyboardButton(text="💖 𝙼𝙰𝚁𝚅𝙴𝙻 𝙼𝙾𝚅𝙸𝙴𝚂 💖", url="https://t.me/marvelmoviesearth616")
               ]]
           )
       )
