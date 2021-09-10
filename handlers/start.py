@@ -24,7 +24,7 @@ async def start(_, message: Message):
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="**Music Bot Is Online ✅**",
+        text="**Parvathy Is Online ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton(text="☣️ Marvel ☣️", url="https://t.me/marvelmoviesearth616")
@@ -36,7 +36,7 @@ async def gstart(_, message: Message):
 @Client.on_message(filters.command(["cmdlist", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**Group Music Bot : Help Menu**
+        text="""**Parvathy : Help Menu**
 
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
